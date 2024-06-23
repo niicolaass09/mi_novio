@@ -1,0 +1,67 @@
+body {
+  background-image: url("imagenes/besos.jpg");
+}
+article section div {
+  width: 75%;
+  float: left;
+}
+aside div{
+width: 25%;
+float: left;
+}
+img {
+  width: 100%;
+  height: auto;
+}
+
+article section div img{
+  width: 49%;
+  height: auto;
+}
+nav li {
+  float: left;
+  font-size: 24px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid #000000;
+  background-color: #44daff;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #796bfc;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #1b007c;
+}
+
+li a.active {
+  color: rgb(40, 98, 255);
+  background-color: #7de1ff;
+}
+li a {
+  display: block;
+  color:  #ffffff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+p {
+  font-size: 24px;
+}
+footer div{
+  text-align: center;
+  float: none;
+}
